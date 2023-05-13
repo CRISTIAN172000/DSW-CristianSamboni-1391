@@ -1,0 +1,54 @@
+/*ESTILO DEL CUESTIONARIO*/
+
+/*Titulo*/
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+
+/* Estilos de respuesta seleccionada */
+input[type="radio"]:checked+label {
+    background-color: darkgray;
+    color: white;
+}
+
+
+/*Estilo boton Enviar */
+input[type="button"] {
+    background-color: #1f53c5;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin: 16px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;  
+}
+
+/*Estilo para el cuerto de trabajo*/
+body {
+    background-color: #24303c;
+    color: #fff;
+    font-family: 'calibri';
+}
+
+/* Estilo para las preguntas*/
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #50aef6;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+script src {
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    padding: 10px;
+}

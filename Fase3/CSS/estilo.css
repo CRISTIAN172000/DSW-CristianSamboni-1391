@@ -1,0 +1,45 @@
+<!--ESTILO DE LA PAGINA-->
+
+.contenedor {
+    display: grid;
+    grid-template-areas:
+        "A A A A"
+        "B B B B"
+        "C D D D"
+        "E E E E";
+}
+
+
+header {
+    grid-area: A;
+    background-color: rgb(0, 255, 64);
+}
+
+
+nav{
+    grid-area: B;
+    background-color: aquamarine;
+}
+
+
+
+aside {
+    grid-area: C;
+    background-color: antiquewhite;
+}
+
+main {
+    grid-area: D;
+    background-color: azure;
+}
+
+footer {
+    grid-area: E;
+    background-color: beige;
+}
+
+.menu.H {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
