@@ -1,5 +1,5 @@
 function ProcesarRespuestas() {
-    let total = 3
+    let total = 6
     let puntos = 0
 
     let myForm = document.forms["formulario"];
